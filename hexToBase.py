@@ -7,7 +7,7 @@
 # @notice a return to these after some years, a little older and hopefully wiser
 #-
 
-#-- an in-built solution: no imports and does what the same thing
+#-- an in-built solution: no imports and does the same thing
 # def hex2base64(hex_string):
 #   cache = bytes.fromhex(hex_string)
 #   return cache.decode('ascii')
