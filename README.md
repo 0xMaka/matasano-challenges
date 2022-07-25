@@ -6,4 +6,4 @@
 ![](https://i.imgur.com/2G7biTg.png)
 
 ## Solution 1
-![image](https://user-images.githubusercontent.com/12489182/180850196-a84e65e6-4109-4a0a-b7f1-ffe0c23b27b2.png)
+![ch1](https://user-images.githubusercontent.com/12489182/180851189-92561d5e-2716-4da6-91ab-e808facf5262.png)
