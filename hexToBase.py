@@ -7,13 +7,6 @@
 # @notice a return to these after some years, a little older and hopefully wiser
 #-
 
-#-- an in-built solution: no imports and does the same thing
-# def hex2base64(hex_string):
-#   cache = bytes.fromhex(hex_string)
-#   return cache.decode('ascii')
-#-
-
-#-- an i-built solution
 # ->
 # unchecksum
 def uncheck(_str):
@@ -90,7 +83,6 @@ def main():
   v = 'SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t'
   base = hex2b64(s)
   r = f'[+] {v}' if base == v else f'[!] {base}'
-
   print(r)
 
 if __name__ == '__main__':
