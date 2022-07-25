@@ -8,7 +8,7 @@
 #-
 
 # ->
-# unchecksum
+# unchecksumn: case conversion
 def uncheck(_str):
   chars = {
     'A':'a', 'B':'b', 'C':'c', 'D':'d', 'E':'e', 'F':'f',
@@ -82,7 +82,7 @@ def main():
   s = '49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d'
   v = 'SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t'
   base = hex2b64(s)
-  r = f'[+] {v}' if base == v else f'[!] {base}'
+  r = f'[+] {base}' if base == v else f'[!] {base}'
   print(r)
 
 if __name__ == '__main__':
