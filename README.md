@@ -13,5 +13,4 @@
 ![](https://i.imgur.com/J5BV2dB.png)
 
 ## Solution 2
-![](https://i.imgur.com/jUvcXF6.png)
-
+![](https://i.imgur.com/8e4K91I.png)
