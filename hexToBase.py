@@ -26,7 +26,7 @@ def uncheck(_str):
   return buffer
 
 # hex to binary mapping 
-def _h2b(_hex):
+def h2b(_hex):
   bin_ = ''
   bin_map = {
     '0': '0000', '1': '0001', '2': '0010', '3': '0011', '4': '0100', '5': '0101', '6': '0110', '7': '0111', 
@@ -37,14 +37,14 @@ def _h2b(_hex):
   return bin_
 
 # binary to decimal
-def _b2d(_bin):
+def b2d(_bin):
   dec = 0
   for n in _bin:
     dec = (dec * 2) + int(n)
   return dec
 
 # binary to base64
-def _b2b(_bin):
+def b2b(_bin):
   chunks = []
   start = 0
   stop = len(_bin)
@@ -62,13 +62,13 @@ def _b2b(_bin):
 
   base = ''
   for bits in chunks:
-    base += (b64_alpha[_b2d(bits)])
+    base += (b64_alpha[b2d(bits)])
   base += int(pad / 2) * '='
   return(base)
 
-#- - external function
+#- - caller function
 def hex2b64(_hex):
-  return _b2b(_h2b(_hex))
+  return b2b(h2b(_hex))
 # - - - - 
 
 #-- main
