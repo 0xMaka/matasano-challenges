@@ -7,3 +7,11 @@
 
 ## Solution 1
 ![ch1](https://user-images.githubusercontent.com/12489182/180851189-92561d5e-2716-4da6-91ab-e808facf5262.png)
+---
+## Set 1 Challenge 2
+
+![](https://i.imgur.com/J5BV2dB.png)
+
+## Solution 2
+![](https://i.imgur.com/jUvcXF6.png)
+
