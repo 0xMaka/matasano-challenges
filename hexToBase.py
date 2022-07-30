@@ -8,7 +8,7 @@
 #-
 
 # ->
-# unchecksumn: case conversion
+# unchecksum: case conversion
 def uncheck(_str):
   chars = {
     'A':'a', 'B':'b', 'C':'c', 'D':'d', 'E':'e', 'F':'f',
@@ -71,7 +71,6 @@ def hex2b64(_hex):
   return b2b(h2b(_hex))
 # - - - - 
 
-#-- main
 # Set 1 Challenge 1
 #   Convert hex to base64
 #   The string:

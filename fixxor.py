@@ -61,10 +61,8 @@ def fixxor(_hex0, _hex1):
  return b2h(xor(h2b(_hex0), h2b(_hex1)))
 # - -
 
-def main():
-# The cryptopals crypto challenges Challenges  
-#  Set 1  Challenge 2 Fixed XOR
-# Write a function that takes two equal-length buffers and produces their XOR combination.
+# Set 1 Challenge 2 Fixed XOR
+#   Write a function that takes two equal-length buffers and produces their XOR combination.
 #
 # If your function works properly, then when you feed it the string:
 #   '1c0111001f010100061a024b53535009181c'
@@ -72,7 +70,7 @@ def main():
 #   '686974207468652062756c6c277320657965'
 # ... should produce:
 #   '746865206b696420646f6e277420706c6179'
-
+def main():
   x = '1c0111001f010100061a024b53535009181c'
   y = '686974207468652062756c6c277320657965'
   z = '746865206b696420646f6e277420706c6179'
